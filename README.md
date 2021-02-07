@@ -16,8 +16,8 @@ rules:
 
 If the relation is not a POSET, your algorithm is responsible to CONVERT it to POSET.
 – If the relation is not reflexive, add new pairs to make the relation reflexive.
-– If the relation is symmetric, remove some pairs which make the relation symmetric. For instance, if
-the relation has (a, b) and (b, a), remove one of them randomly.
+– If the relation is symmetric, remove some pairs which make the relation symmetric. For instance, if the relation has (a, b) and (b, a), remove one of them
+randomly.
 – If the relation is not transitive, add new pairs which would make the relation transitive.
 
 • After the relation becomes POSET, your algorithm should obtain Hasse diagram of the relation and write
